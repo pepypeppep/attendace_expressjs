@@ -1,6 +1,6 @@
 module.exports = (sequelize, DataTypes) => {
   const Presence = sequelize.define('Presence', {
-    presenceId: {
+    id: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
       primaryKey: true,
